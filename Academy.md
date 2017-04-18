@@ -222,7 +222,7 @@ Try to do all modifications to the theme to this file. This is not possible for 
 * Then click on the Activate button: ![https://www.dropbox.com/s/44w452htqnakuf8/Screenshot%202016-11-21%2019.23.26.png?dl=0](https://www.dropbox.com/s/44w452htqnakuf8/Screenshot%202016-11-21%2019.23.26.png?raw=1)
 
 * Generate a new certificate on the Mac: [https://www.namecheap.com/support/knowledgebase/article.aspx/9683/0/macosx](https://www.namecheap.com/support/knowledgebase/article.aspx/9683/0/macosx)
-The only value that is really used, I think is 'common name', which should be **.**[mosalingua.co*m](http://mosalingua.com/)
+The only value that is really used, I think is 'common name', which should be **.**[mosalingua.co*m](https://mosalingua.com/)
 Other things such as country, I put France I think and city 'Lyon'.
 
 * DCV method : email (with a click on the url in the email received to validate it)
@@ -253,7 +253,7 @@ First we need to get the certificate file, the certificate chain file and the pr
 
 ![image alt text](acc_image_0.png)
 
-Once we have all the 3 files we need to upload the certificate to CloudFront. The details are explained here: [http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_server-certs.html](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_server-certs.html)
+Once we have all the 3 files we need to upload the certificate to CloudFront. The details are explained here: [https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_server-certs.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_server-certs.html)
 
 Example:
 
@@ -332,7 +332,7 @@ THIS IS OUTDATED for the new academy.mosalingua.com website (we don’t use mult
 With the current setup (Multisite + Optimize Press + Optimize Member), you have to do the following:
 
 * **Duplicate the website** that you wish to base the translation on with the MultilingualPress’s duplicate site feature:
-See: [http://slides.tfrommen.de/multilingualpress/#/8/2](http://slides.tfrommen.de/multilingualpress/#/8/2)
+See: [https://slides.tfrommen.de/multilingualpress/#/8/2](https://slides.tfrommen.de/multilingualpress/#/8/2)
 
 ![https://www.dropbox.com/s/ri85k4m1vbqth8g/Screenshot%202016-06-07%2011.49.21.png?dl=0](https://www.dropbox.com/s/ri85k4m1vbqth8g/Screenshot%202016-06-07%2011.49.21.png?raw=1)
 
@@ -344,7 +344,7 @@ INSERT INTO wp_7_optimizepress_presets SELECT * FROM wp_optimizepress_presets;*
 
 * **Need to change the OP Key:**
 
-    * Get a new key here [http://members.optimizepress.com/](http://members.optimizepress.com/)
+    * Get a new key here [https://members.optimizepress.com/](https://members.optimizepress.com/)
 
     * Then [Update it here](https://app.mosalingua.com/en/wp-admin/admin.php?page=optimizepress-dashboard)
 
@@ -429,7 +429,7 @@ Make sure it’s activated.
 
 ### Memberpress
 
-Good rate from[ Chris Lema](http://chrislema.com/best-wordpress-membership-plugin-2015/):
+Good rate from[ Chris Lema](https://chrislema.com/best-wordpress-membership-plugin-2015/):
 
 [https://www.memberpress.com/](https://www.memberpress.com/)
 
@@ -521,9 +521,9 @@ Is it easily possible with aMember?
 
 *Please have a look:*
 
-*[http://www.amember.com/docs/Site.php_fil*e](http://www.amember.com/docs/Site.php_file)
+*[https://www.amember.com/docs/Site.php_fil*e](https://www.amember.com/docs/Site.php_file)
 
-*[http://www.amember.com/docs/API/HookManage*r](http://www.amember.com/docs/API/HookManager)
+*[https://www.amember.com/docs/API/HookManage*r](https://www.amember.com/docs/API/HookManager)
 
 *We also can implement this for you for small additional fee.*
 
@@ -575,11 +575,11 @@ Normal theme + plugins
 
 plugins:
 
-For points system :[ http://mycred.me/](http://mycred.me/)
+For points system :[ https://mycred.me/](https://mycred.me/)
 
-**Badges** :[ http://badgeos.org/](http://badgeos.org/)
+**Badges** :[ https://badgeos.org/](https://badgeos.org/)
 
-Course, progress, quizz:[ http://study-press.com](http://study-press.com/) (but too recent?)
+Course, progress, quizz:[ https://study-press.com](https://study-press.com/) (but too recent?)
 
 theme: (need to find a good looking theme and easy to customize)
 
@@ -589,13 +589,13 @@ Which is a 'parent' theme that allows overriding where necessary
 
 [https://roots.io/](https://roots.io/)
 
-[http://underscores.me/](http://underscores.me/)
+[https://underscores.me/](https://underscores.me/)
 
 Community themes
 
 ------------------------------
 
-[http://themeforest.net/item/klein-a-nittygritty-community-theme/5418518?ref=cirvitis](http://themeforest.net/item/klein-a-nittygritty-community-theme/5418518?ref=cirvitis)
+[https://themeforest.net/item/klein-a-nittygritty-community-theme/5418518?ref=cirvitis](https://themeforest.net/item/klein-a-nittygritty-community-theme/5418518?ref=cirvitis)
 
 -> looks great to create a community. But include also paid membership.
 
@@ -605,21 +605,21 @@ Full LMS theme
 
 Maybe those theme are trying to handle too much (payments, course creations, authors, etc.)
 
-[http://themeforest.net/item/wplms-learning-management-system/6780226?ref=cirvitis](http://themeforest.net/item/wplms-learning-management-system/6780226)
+[https://themeforest.net/item/wplms-learning-management-system/6780226?ref=cirvitis](https://themeforest.net/item/wplms-learning-management-system/6780226)
 
 WPLMS is a Learning Management System for WordPress. It is an e-learning WordPress theme for course management, instructor and student management using which you can create and sell your courses online. 
 
 The theme turns your WordPress setup into an LMS, utilising the potential of WordPress + BuddyPress + BBPress + WooCommerce. WPLMS is compatible with TinCan/XAPI specifications and a lot of popular plugins such as WP Coauthors plus, MyCred points system, BadgeOS, PMPro, DwQ&A and more.. The Theme package includes 8 custom plugins built specifically for the theme to provide the complete learning experience.
 
-[http://themeforest.net/item/clever-course-learning-management-system-theme/8645312](http://themeforest.net/item/clever-course-learning-management-system-theme/8645312)
+[https://themeforest.net/item/clever-course-learning-management-system-theme/8645312](https://themeforest.net/item/clever-course-learning-management-system-theme/8645312)
 
-[http://themeforest.net/item/academy-learning-management-theme/4169073?ref=cirvitis](http://themeforest.net/item/academy-learning-management-theme/4169073?ref=cirvitis)
+[https://themeforest.net/item/academy-learning-management-theme/4169073?ref=cirvitis](https://themeforest.net/item/academy-learning-management-theme/4169073?ref=cirvitis)
 
 SENSEI
 
-[http://www.woothemes.com/products/sensei/](http://www.woothemes.com/products/sensei/)
+[https://www.woothemes.com/products/sensei/](https://www.woothemes.com/products/sensei/)
 
-(200$ + buy a theme. ex:[ http://themeforest.net/item/guru-learning-management-wordpress-theme/7807232?ref=cirvitis](http://themeforest.net/item/guru-learning-management-wordpress-theme/7807232?ref=cirvitis)) Not compatible with WPML??
+(200$ + buy a theme. ex:[ https://themeforest.net/item/guru-learning-management-wordpress-theme/7807232?ref=cirvitis](https://themeforest.net/item/guru-learning-management-wordpress-theme/7807232?ref=cirvitis)) Not compatible with WPML??
 
 Teaching coursework has never been easier, all within WordPress. With the Sensei plugin you can create courses, write lessons, and add quizzes. Set lesson and course pre-requisites, allow user registration and even charge for your course content if you want. Sensei is the ultimate WordPress learning management system!
 
@@ -631,7 +631,7 @@ not fully WPML compatible, and not compatible with OPtimze
 
 **Learn Dash** 
 
-looks good too: [http://www.learndash.com/wordpress-course-plugin-features/](http://www.learndash.com/wordpress-course-plugin-features/)
+looks good too: [https://www.learndash.com/wordpress-course-plugin-features/](https://www.learndash.com/wordpress-course-plugin-features/)
 
 Lot of feature, but design and UX not very good.. (ex. their demo course)
 
