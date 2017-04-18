@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>MosaLingua Documentation</title>
+    <!-- Flatdoc -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/legacy.js'></script>
+    <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/flatdoc.js'></script>
+    <!-- Flatdoc theme -->
+    <link href='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/style.css' rel='stylesheet'>
+    <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/script.js'></script>
+    <!-- Initializer -->
+    <style>
+    video,
+    img {
+        max-width: 100%;
+    }
+    
+    .header .title,
+    .header ul {
+        vertical-align: middle;
+        display: inline-block;
+    }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+    }
+    
+    .content-root {
+        margin-top: 77px;
+    }
+    
+    .menubar.fixed {
+        top: 77px;
+    }
+    
+    .header ul {
+        float: none;
+    }
+    
+    .header ul li a {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    
+    .header .title + ul {
+        border-left: solid 1px #dfe2e7;
+        margin-left: 15px;
+    }
+    
+    .header .title {
+        text-align: center;
+    }
+    
+    .header .title img {
+        width: 182px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .header .title h1 {
+        width: 100%;
+    }
+    
+    .menu a {
+        max-width: 100%;
+    }
+    
+    .menu a.active::after {
+        right: -14px;
+    }
+    </style>
+    <script>
+    var Routes = {
+            'MosaWeb': 'web',
+            'MosaAcademy': 'academy'
+        },
+        defaultRoute = 'MosaWeb';
+
+    simpleRouter();
+    window.addEventListener('hashchange', simpleRouter);
+
+    function flatdocLoadFile(filename) {
+        Flatdoc.run({
+            fetcher: Flatdoc.file(filename + '.md')
+        });
+    }
+
+    function simpleRouter(e) {
+        var found = false;
+        var actualHash = window.location.hash;
+        if (actualHash === '') {
+            flatdocLoadFile(Routes[defaultRoute]);
+            found = true;
+        }
+        if (!found) {
+            var hashes = Object.keys(Routes);
+            for (var n = 0, l = hashes.length; n < l; n++) {
+                var hash = hashes[n];
+                if (actualHash === '#' + hash) {
+                    flatdocLoadFile(Routes[hash]);
+                    found = true;
+                    break;
+                }
+            }
+        }
+        if (!found) window.location.hash = '';
+    }
+    </script>
+</head>
+
+<body role='flatdoc' class='no-literate big-h3'>
+    <div class='header'>
+        <div class='left'>
+            <div class="title"><img width=100 src="logo.png" alt="">
+                <h1>Documentation</h1></div>
+            <ul>
+                <li><a href='#MosaWeb'>MosaWeb</a></li>
+                <li><a href='#MosaAcademy'>MosaAcademy</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class='content-root'>
+        <div class='menubar'>
+            <div class='menu section' role='flatdoc-menu'></div>
+        </div>
+        <div role='flatdoc-content' class='content'></div>
+    </div>
+</body>
+
+</html>
