@@ -163,7 +163,7 @@ GoTo your wp-dashboard  >  Appearance  >  Widgets  >  Testimonials & Press Widge
 
 * in case there’s no client picture, you’ll need to add avatar pic. url
 
-[http://www.mosalingua.com/en/files/2012/12/test_pict.jpg](http://www.mosalingua.com/en/files/2012/12/test_pict.jpg)
+[https://www.mosalingua.com/en/files/2012/12/test_pict.jpg](https://www.mosalingua.com/en/files/2012/12/test_pict.jpg)
 
 ## 4. Updating Bottom section
 
